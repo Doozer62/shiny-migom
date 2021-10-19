@@ -685,6 +685,7 @@ body {
 
 .prices {
     padding: 93px 0;
+    background-color: #E5E5E5;
 }
 
 .prices__title {
@@ -694,6 +695,26 @@ body {
     line-height: 55px;
 }
 
-#polzunok {
-    background-color: rgb(146, 31, 31);
+.prices__inputs {
+    padding-top: 69px;
+}
+
+.noUi-target {
+    max-width: 453px;
+    height: 3px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #FFD300;
+    top: -5px;
+}
+
+.prices__list {
+    color: #000;
+    padding-top: 30px;
 }
