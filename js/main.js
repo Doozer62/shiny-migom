@@ -21,30 +21,31 @@
 //     $("#amount").val("$" + sliderAmountMap[$("#slider").slider("value")]); // 
 // });
 
-var slider = document.getElementById('slider');
+// var slider = document.getElementById('slider');
 
-if (slider) {
-    noUiSlider.create(slider, {
-        start: [10],
-        connect: true,
-        step: 10,
-        range: {
-            'min': 0,
-            'max': 100,
-        }
-    });
+// if (slider) {
+//     noUiSlider.create(slider, {
+//         start: [10],
+//         connect: true,
+//         step: 10,
+//         range: {
+//             'min': 0,
+//             'max': 100,
+//         },
 
-    // const input0 = document.getElementById('input-0');
-    // const input0 = document.getElementById('input-1');
-    // const inputs = [input0, input1];
+//     });
+
+//     // const input0 = document.getElementById('input-0');
+//     // const input0 = document.getElementById('input-1');
+//     // const inputs = [input0, input1];
 
 
-    slider.noUiSlider.on('update', function(handle) {
-        console.log(handle)
-    });
-}
+//     slider.noUiSlider.on('update', function(handle) {
+//         console.log(handle)
+//     });
+// }
 
-$(function() {
+// $(function() {
 
-    var mixer = mixitup('.prices__content');
-});
+//     var mixer = mixitup('.prices__content');
+// });

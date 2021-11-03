@@ -65,7 +65,7 @@ body {
     font-size: 18px;
     min-height: 100vh;
     font-family: 'Manrope', sans-serif;
-    color: #fff;
+    color: #17181C;
     background-color: #E5E5E5;
 }
 
@@ -81,6 +81,7 @@ body {
 }
 
 .header-top {
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -124,6 +125,7 @@ body {
 }
 
 .header-bottom {
+    color: #fff;
     padding-top: 82px;
 }
 
@@ -139,6 +141,7 @@ body {
 }
 
 .header-content {
+    color: #fff;
     display: block;
     padding-top: 20px;
     max-width: 540px;
@@ -228,13 +231,6 @@ body {
     font-size: 16px;
     line-height: 22px;
     padding-top: 40px;
-}
-
-.price {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
 }
 
 .block-two {
@@ -340,10 +336,6 @@ body {
     top: 130px;
 }
 
-.legal-entities {
-    color: #17181C;
-}
-
 .legal-entities__top {
     padding-top: 91px;
     text-align: center;
@@ -435,7 +427,6 @@ body {
 
 .advantages {
     background-image: url(../img/advantages-bg.png);
-    color: #17181C;
     padding-top: 94px;
     padding-bottom: 233px;
 }
@@ -524,7 +515,6 @@ body {
     background-color: #FFD300;
     padding-top: 128px;
     padding-bottom: 107px;
-    color: #17181C;
 }
 
 .mobile-service__images {
@@ -595,7 +585,6 @@ body {
 }
 
 .additional-works {
-    color: #17181C;
     padding-top: 94px;
     padding-bottom: 118px;
 }
@@ -627,6 +616,7 @@ body {
 
 .maps__inner {
     display: flex;
+    color: #fff;
 }
 
 .maps__title {
@@ -636,7 +626,7 @@ body {
     width: 530px;
     line-height: 55px;
     text-transform: uppercase;
-    margin-left: -12px;
+    margin-left: -222px;
 }
 
 .maps__title::before {
@@ -654,7 +644,7 @@ body {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    margin-left: -100px;
+    margin-left: -325px;
     margin-top: 30px;
 }
 
@@ -670,7 +660,7 @@ body {
 .maps-left {
     position: relative;
     background-image: url(../img/maps-bg2.png);
-    width: 100vw;
+    width: 50vw;
     padding-left: 428px;
     padding-top: 150px;
 }
@@ -684,37 +674,110 @@ body {
 }
 
 .prices {
+    display: block;
     padding: 93px 0;
+}
+
+.slider-wrapper {
+    padding: 92px 0;
+}
+
+
+/*Пагинация*/
+
+.image-slider .swiper-pagination {}
+
+
+/* Буллеты */
+
+.swiper-pagination-bullet {}
+
+.image-slider .swiper-pagination-bullet {
+    height: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
     background-color: #E5E5E5;
 }
 
-.prices__title {
-    color: #17181C;
+.swiper-container {
+    margin-top: 69px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.slider-title {
+    text-transform: uppercase;
+    text-align: center;
     font-weight: 800;
     font-size: 45px;
     line-height: 55px;
 }
 
-.prices__inputs {
-    padding-top: 69px;
+.swiper-pagination-bullet {
+    margin-left: 12px;
+    border-radius: 0;
+    width: 81px;
+    height: 30px;
+    text-align: center;
+    font-weight: 300;
+    left: 75px;
 }
 
-.noUi-target {
-    max-width: 453px;
-    height: 3px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
+.swiper-pagination {
+    left: 75px;
 }
 
-.noUi-horizontal .noUi-handle {
-    width: 11px;
+
+/* .swiper-pagination-bullet {
+    font-weight: 800;
+    opacity: 1;
+    color: #000;
+} */
+
+.swiper-scrollbar-drag {
+    top: -3px;
     height: 11px;
     border-radius: 50%;
     background-color: #FFD300;
-    top: -5px;
+    box-shadow: 0px 0px 8px 6px rgba(255, 213, 0, 0.644);
 }
 
-.prices__list {
-    color: #000;
-    padding-top: 30px;
+.swiper-scrollbar__content {
+    position: absolute;
+    bottom: -6px;
+    left: -226px;
+}
+
+
+/* .list li {
+    padding: 5px 9px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #17181C;
+} */
+
+.prices__item {
+    font-family: 'Manrope';
+    background-color: #EBE9E9;
+    margin-top: 13px;
+    padding: 0px 27px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-prices {
+    padding-top: 33px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 45px;
+}
+
+.item__price {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
 }
