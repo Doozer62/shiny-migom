@@ -729,13 +729,6 @@ body {
     left: 75px;
 }
 
-
-/* .swiper-pagination-bullet {
-    font-weight: 800;
-    opacity: 1;
-    color: #000;
-} */
-
 .swiper-scrollbar-drag {
     top: -3px;
     height: 11px;
@@ -749,14 +742,6 @@ body {
     bottom: -6px;
     left: -226px;
 }
-
-
-/* .list li {
-    padding: 5px 9px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #17181C;
-} */
 
 .prices__item {
     font-family: 'Manrope';
@@ -780,4 +765,85 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 45px;
+}
+
+.slider-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.reviews__title {
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.reviews-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.reviews-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.video-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.video-content-right__inner {
+    margin-right: 312px;
+}
+
+.video-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 255px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    
+}
+
+.video2-inner {
+    padding-left: 12px;
+    margin-top: 12px;
+    width: 520px;
+    height: 255px;
+    text-align: center;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+}
+
+.video-link {
+    transition: all .5s;
+}
+
+.video-link:hover {
+    transform: scale(1.2);
+}
+
+.icon-play {
+    position: absolute;
+    left: 22px;
+    top: 18px;
+}
+
+.video__title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.video__description {
+    font-size: 18px;
 }
