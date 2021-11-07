@@ -66,7 +66,7 @@ body {
     min-height: 100vh;
     font-family: 'Manrope', sans-serif;
     color: #17181C;
-    background-color: #E5E5E5;
+    background-color: #F7F4F4;
 }
 
 .header-background {
@@ -80,7 +80,8 @@ body {
     margin: 0 auto;
 }
 
-.header-top {
+.header-top,
+.footer-top {
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -93,14 +94,22 @@ body {
 .menu__list {
     display: flex;
     padding-top: 45px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .menu__list-item {
     padding-left: 25px;
 }
 
-.phone-num {
-    padding-top: 45px;
+.menu__list-link {
+    transition: 0.5s;
+    /* Время эффекта */
+
+}
+
+.menu__list-link:hover {
+    /* transform: scale(1.2); */
+    font-size: 24px;
 }
 
 .phone-call {
@@ -109,6 +118,7 @@ body {
 
 .phone-num {
     margin-right: 12px;
+    padding-top: 45px;
     font-weight: 800;
     font-size: 20px;
     line-height: 27px;
@@ -365,6 +375,10 @@ body {
 .legal-entities__inner {
     display: flex;
     padding-top: 63px;
+}
+
+.legal-entities__img {
+    max-width: 50%;
 }
 
 .legal-entities__list {
@@ -666,11 +680,11 @@ body {
 }
 
 .maps-right {
-    width: 100vw;
+    width: 50vw;
 }
 
 .map-yandex {
-    width: 100%;
+    width: 50%;
 }
 
 .prices {
@@ -906,4 +920,111 @@ body {
     height: 32px;
     margin-top: 12px;
     margin-left: 5px;
+}
+
+.footer {
+    position: relative;
+    padding: 48px 0 15px 0;
+    background-color: #17181C;
+}
+
+.footer-img {
+    position: absolute;
+    top: -148px;
+    left: 463px;
+}
+
+.footer-top {
+    color: #fff;
+    display: flex;
+
+}
+
+.footer__list {
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.menu__footer-item {
+    margin-right: 33px;
+}
+
+.footer__phone-num {
+    position: relative;
+    color: #FFD300;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 126px;
+}
+
+.footer__phone-num::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/icons/call-phone.svg);
+    width: 13px;
+    height: 13px;
+    left: -28px;
+    top: 6px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    color: #FFD200;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: end;
+}
+
+.icon-avito {
+    transition: all .5s;
+}
+
+.icon-avito:hover {
+    transform: scale(1.2);
+}
+
+.icon-instagram {
+    transition: all .5s;
+}
+
+.icon-instagram:hover {
+    transform: scale(1.2);
+}
+
+.footer-whatsapp {
+    border: 1px solid #FFD200;
+    padding: 13px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    transition: all .5s;
+}
+
+.footer-whatsapp:hover {
+    font-size: 16px;
+}
+
+.footer-items li:not(:last-child) {
+    margin-right: 27px;
+}
+
+.border-footer {
+    border-top: 1px solid #fff;
+    opacity: 0.4;
+    margin-top: 36px;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    margin-top: 11px;
 }
