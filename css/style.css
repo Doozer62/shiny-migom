@@ -711,7 +711,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-    background-color: #E5E5E5;
+    background-color: transparent;
 }
 
 .swiper-container {
