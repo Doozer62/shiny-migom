@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 *,
@@ -1039,9 +1039,33 @@ body {
     .callback__btn {
         margin-right: 12px;
     }
+    .logo {
+        margin-left: 15px;
+    }
+    .header-title {
+        margin-left: 15px;
+        font-size: 54px;
+        line-height: 60px;
+    }
+    .header-content {
+        font-size: 16px;
+        margin-left: 15px;
+    }
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .logo {
+        width: 134px;
+        height: 66px;
+    }
+    .header-title {
+        font-size: 50px;
+    }
+    .header-content {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
 
 @media (max-width: 768px) {}
 
